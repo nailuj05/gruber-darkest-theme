@@ -55,10 +55,11 @@
       (gruber-darkest-bg+2      "#303040")
       (gruber-darkest-bg+3      "#404040")
       (gruber-darkest-bg+4      "#505050")
+      (gruber-darkest-bg+5      "#606060")
       (gruber-darkest-red-1     "#c73c3f")
       (gruber-darkest-red       "#f43841")
       (gruber-darkest-red+1     "#ff4f58")
-      (gruber-darkest-string    "#70D070")
+      (gruber-darkest-string    "#d8952c")
       (gruber-darkest-main      "#44ccff")
       (gruber-darkest-brown     "#757575")
       (gruber-darkest-quartz    "#95a99f")
@@ -356,23 +357,23 @@
 
    ;; Whitespace
    `(whitespace-space ((t ,(list :background gruber-darkest-bg
-                                 :foreground gruber-darkest-bg+1))))
+                                 :foreground gruber-darkest-bg+4))))
    `(whitespace-tab ((t ,(list :background gruber-darkest-bg
-                               :foreground gruber-darkest-bg+1))))
+                               :foreground gruber-darkest-bg+4))))
    `(whitespace-hspace ((t ,(list :background gruber-darkest-bg
-                                  :foreground gruber-darkest-bg+2))))
-   `(whitespace-line ((t ,(list :background gruber-darkest-bg+2
+                                  :foreground gruber-darkest-bg+4))))
+   `(whitespace-line ((t ,(list :background gruber-darkest-bg+4
                                 :foreground gruber-darkest-red+1))))
    `(whitespace-newline ((t ,(list :background gruber-darkest-bg
-                                   :foreground gruber-darkest-bg+2))))
+                                   :foreground gruber-darkest-bg+4))))
    `(whitespace-trailing ((t ,(list :background gruber-darkest-red
                                     :foreground gruber-darkest-red))))
    `(whitespace-empty ((t ,(list :background gruber-darkest-main
                                  :foreground gruber-darkest-main))))
-   `(whitespace-indentation ((t ,(list :background gruber-darkest-main
-                                       :foreground gruber-darkest-red))))
-   `(whitespace-space-after-tab ((t ,(list :background gruber-darkest-main
-                                           :foreground gruber-darkest-main))))
+   `(whitespace-indentation ((t ,(list :background gruber-darkest-bg
+                                       :foreground gruber-darkest-bg+4))))
+   `(whitespace-space-after-tab ((t ,(list :background gruber-darkest-bg
+                                           :foreground gruber-darkest-bg+4))))
    `(whitespace-space-before-tab ((t ,(list :background gruber-darkest-brown
                                             :foreground gruber-darkest-brown))))
 
